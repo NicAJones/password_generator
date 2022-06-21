@@ -11,7 +11,7 @@ const qs = (query) => {
 const btn = qs('.btn');
 const password = qs('.password');
 
-// takes input size password length
+// takes input size password length.
 document.querySelector('#passwordLength').addEventListener('keyup', (e) => {
     pwLength = e.target.value
 })
