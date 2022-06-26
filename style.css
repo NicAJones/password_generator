@@ -13,6 +13,7 @@ body {
 .heading {
     font-size: 90px;
     color: darkslategray;
+    margin-top: 20px;
     margin-bottom: 100px;
 }
 
@@ -20,7 +21,7 @@ body {
 #passwordLength {
     text-align: center;
     background-color: aliceblue;
-    margin-top: 10%;
+    margin-top: 100px;
     margin-bottom: 40px;
     font-size: 40px;
     border-radius: 10px;
