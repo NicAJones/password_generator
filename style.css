@@ -1,0 +1,40 @@
+body {
+    background: rgb(170, 170, 170);
+    text-align: center;
+}
+
+.heading {
+    font-size: 90px;
+    color: darkslategray;
+}
+
+#passwordLength {
+    background-color: aliceblue;
+    margin-top: 10%;
+    margin-bottom: 40px;
+    font-size: 40px;
+    border-radius: 10px;
+    border-color: darkslategray;
+    border-width: 3px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.btn {
+    font-size: 50px;
+    border-radius: 15px;
+    color: darkslategray;
+    background-color: aliceblue;
+    margin-left: 50px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.password {
+    font-size: 60px;
+    color: #7f0909;
+}
