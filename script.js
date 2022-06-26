@@ -12,12 +12,14 @@ let btn = qs('.btn');
 let password = qs('.password');
 let clear = qs('.clear');
 
-
+const btnCopy = document.querySelector('.btn-copy');
 
 // takes input size password length.
 document.querySelector('#passwordLength').addEventListener('keyup', (e) => {
     pwLength = e.target.value
 })
+
+
 
 
 btn.addEventListener('click', (e) => {
@@ -28,3 +30,6 @@ btn.addEventListener('click', (e) => {
     password.textContent = rtnPw.join().replaceAll(',', '');
 })
 
+btnCopy.addEventListener('click', () => {
+    navigator.clipboard.writeText(password.textContent);
+})
